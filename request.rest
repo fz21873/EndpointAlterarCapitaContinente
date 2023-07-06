@@ -1,0 +1,13 @@
+GET http://localhost:3003/countries
+
+###
+PUT  http://localhost:3003/countries/1
+Content-Type: application/json
+
+{
+ 
+  "name": "Angolas",
+  "capital": "Luandas",
+  "continent": "Africas"
+
+}
